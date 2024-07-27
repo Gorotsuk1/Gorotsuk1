@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="static/styles/styles.css" />
+    <title>Home Page</title>
+    <style>
+      video {
+        width: 100%;
+        height: 100%;
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Whole page -->
+    <div class="page-container">
+      <header>
+        <!-- start:Navigation panel -->
+        <div class="navbar-container">
+          <div class="navbar-icon">
+            <img src="static/images/logo.png" alt="..." />
+          </div>
+          <ul>
+            <ul>
+              <li class="langBtn"><a href="#">Language</a></li>
+            </ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Donate</a></li>
+            <li><a href="#">My account</a></li>
+          </ul>
+        </div>
+      </header>
+      <!-- end: Navigation panel -->
+      <!-- start: Page's content -->
+      <!-- start: Carousel -->
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="static/media/carouselDragon.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="static/media/carouselPhonk.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video src="static/media/carousel.mp4" autoplay muted></video>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- end: Carousel -->
+      <div class="main-container">
+        <aside>
+          <div class="media-container">
+            <video
+              src="static/media/video.mp4"
+              muted
+              autoplay
+              loop
+              id="videoPres"
+            ></video>
+          </div>
+        </aside>
+        <section>
+          <div class="title-container">
+            <h1 style="display: flex">Welcome message</h1>
+          </div>
+          <div class="message-container">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Excepturi hic labore aspernatur sapiente placeat vitae
+              perspiciatis natus distinctio unde, laborum facere ab? Fugit
+              assumenda voluptatibus iste ab? Officia animi consequuntur, fugit
+              in perspiciatis delectus iure? At sit laudantium libero
+              necessitatibus totam culpa omnis quia ab pariatur ducimus, nam
+              modi illum.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Excepturi hic labore aspernatur sapiente placeat vitae
+              perspiciatis natus distinctio unde, laborum facere ab? Fugit
+              assumenda voluptatibus iste ab? Officia animi consequuntur, fugit
+              in perspiciatis delectus iure? At sit laudantium libero
+              necessitatibus totam culpa omnis quia ab pariatur ducimus, nam
+              modi illum.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Excepturi hic labore aspernatur sapiente placeat vitae
+              perspiciatis natus distinctio unde, laborum facere ab? Fugit
+              assumenda voluptatibus iste ab? Officia animi consequuntur, fugit
+              in perspiciatis delectus iure? At sit laudantium libero
+              necessitatibus totam culpa omnis quia ab pariatur ducimus, nam
+              modi illum.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Excepturi hic labore aspernatur sapiente placeat vitae
+              perspiciatis natus distinctio unde, laborum facere ab? Fugit
+              assumenda voluptatibus iste ab? Officia animi consequuntur, fugit
+              in perspiciatis delectus iure? At sit laudantium libero
+              necessitatibus totam culpa omnis quia ab pariatur ducimus, nam
+              modi illum.
+            </p>
+            <div class="homeBtns">
+              <button id="">About us</button>
+              <button id="">About project</button>
+              <button id="">Donate</button>
+              <button id="">Revenue listing</button>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- start: Footer -->
+      <footer>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi
+          hic labore aspernatur sapiente placeat vitae perspiciatis natus
+          distinctio unde, laborum facere ab? Fugit assumenda voluptatibus iste
+          ab? Officia animi consequuntur, fugit in perspiciatis delectus iure?
+          At sit laudantium libero necessitatibus totam culpa omnis quia ab
+          pariatur ducimus, nam modi illum.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi
+          hic labore aspernatur sapiente placeat vitae perspiciatis natus
+          distinctio unde, laborum facere ab? Fugit assumenda voluptatibus iste
+          ab? Officia animi consequuntur, fugit in perspiciatis delectus iure?
+          At sit laudantium libero necessitatibus totam culpa omnis quia ab
+          pariatur ducimus, nam modi illum.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi
+          hic labore aspernatur sapiente placeat vitae perspiciatis natus
+          distinctio unde, laborum facere ab? Fugit assumenda voluptatibus iste
+          ab? Officia animi consequuntur, fugit in perspiciatis delectus iure?
+          At sit laudantium libero necessitatibus totam culpa omnis quia ab
+          pariatur ducimus, nam modi illum.
+        </p>
+      </footer>
+      <!-- end: Footer -->
+    </div>
+    <!-- end: Page's content -->
+  </body>
+
+  <!-- Scripts: js, Bootstrap -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+
+  <script src="static/script/script.js"></script>
+</html>

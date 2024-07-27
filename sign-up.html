@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="static/styles/reg-form.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+    <title>Sign up</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="form-title-container">
+        <span>Sign up</span>
+      </div>
+      <!-- input phone number -->
+      <div class="form-fields-container">
+        <form action="" method="get">
+          <div class="select-box" id="phone-number-container">
+            <div class="selected-option">
+              <div>
+                <span class="iconify" data-icon="flag:gb-4x3"></span>
+                <strong>+44</strong>
+              </div>
+              <input type="tel" name="tel" placeholder="Phone Number" />
+            </div>
+            <div class="options">
+              <input
+                type="text"
+                class="search-box"
+                placeholder="Search Country Name"
+              />
+              <ol></ol>
+            </div>
+          </div>
+          <!-- end: input phone number -->
+           <!-- input password -->
+          <div class="password">
+            <form action="">
+              <div class="toggle-box" id="password-container">
+                <div class="selected-toggler">
+                  <div id="toggle-show">
+                    <span class="iconify" data-icon="iconoir:eye-solid"></span>
+                  </div>
+                  <input type="password" name="passw" placeholder="Password"/>
+                </div>
+              </div>
+              </div>
+            </form>
+          </div>
+          <div class="confirm-password">
+            <form action="">
+              <input type="password" name="affirm-passw" placeholder="Confirm Password">
+            </form>
+          </div>
+          <!-- end: input password -->
+          <input type="submit" value="submit" />
+        </form>
+      </div>
+    </div>
+    <script src="static/script/regist.js"></script>
+  </body>
+</html>
